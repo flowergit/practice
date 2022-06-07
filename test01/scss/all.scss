@@ -1,0 +1,15 @@
+$liter-color : rgb(128, 0, 113);
+$lsize : 20px;
+
+h1{
+    color: $liter-color;
+    background: yellow;
+}
+
+.word{
+    p{
+        color: blue;
+        font-size: $lsize;
+    }
+    
+}

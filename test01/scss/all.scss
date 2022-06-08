@@ -1,5 +1,4 @@
-$liter-color : rgb(128, 0, 113);
-$lsize : 20px;
+@import "variable" ;
 
 h1{
     color: $liter-color;

@@ -1,14 +1,4 @@
 @import "variable" ;
+@import "reset";
+@import "main";
 
-h1{
-    color: $liter-color;
-    background: yellow;
-}
-
-.word{
-    p{
-        color: blue;
-        font-size: $lsize;
-    }
-    
-}

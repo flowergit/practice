@@ -43,6 +43,7 @@
     }
 
     .banner {
+        margin-top: 10px;
         width: 960px;
         //height: 500px;
         background: lighten(blue, 30%);
@@ -55,21 +56,47 @@
 
     .main {
         display: flex;
+        margin-top: 10px;
 
         .productList {
             width: 300px;
 
             a {
                 display: block;
-                //align-items: center;
                 text-align: center;
-                padding: 15px;
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 30px;
+                padding-bottom: 30px;
                 border: red solid 2px;
                 text-decoration: none;
                 font-size: 35px;
+            }
+        }
+
+        .productDetail {
+            display: flex;
+            width: 658px;
+            border: 2px green solid;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+            .pd {
+                border: 1px red solid;
+                width: 326px;
+                //justify-content: space-between;
+                //margin-left: 20px;
+                //padding-left: 10px;
+                //padding-right: 10px;
+                margin-bottom: 20px;
+                text-align: center;
+                font-size: 25px;
+
+                h2 {
+                    border-top: 1px blue solid;
+                }
 
             }
-
         }
 
         

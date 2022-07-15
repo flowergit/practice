@@ -85,4 +85,25 @@ table {
 .wrap .header .nav .navItem a:hover {
   color: lightcoral;
   background: green;
+}
+.wrap .banner {
+  width: 960px;
+  background: #9999ff;
+}
+.wrap .banner img {
+  display: block;
+}
+.wrap .main {
+  display: flex;
+}
+.wrap .main .productList {
+  width: 300px;
+}
+.wrap .main .productList a {
+  display: block;
+  text-align: center;
+  padding: 15px;
+  border: red solid 2px;
+  text-decoration: none;
+  font-size: 35px;
 }/*# sourceMappingURL=all.css.map */

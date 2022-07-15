@@ -42,6 +42,40 @@
         }
     }
 
+    .banner {
+        width: 960px;
+        //height: 500px;
+        background: lighten(blue, 30%);
+        //background: 
+
+        img {
+            display: block;
+        }
+    }
+
+    .main {
+        display: flex;
+
+        .productList {
+            width: 300px;
+
+            a {
+                display: block;
+                //align-items: center;
+                text-align: center;
+                padding: 15px;
+                border: red solid 2px;
+                text-decoration: none;
+                font-size: 35px;
+
+            }
+
+        }
+
+        
+
+    }
+
     
 
 

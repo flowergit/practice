@@ -1,0 +1,44 @@
+.wrap {
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+    //background: red;
+
+    .header {
+        display: flex;
+        width: 960px;
+        margin: 0 auto;
+        //background-color: yellow;
+
+        .logo{
+            margin-left: 15px;
+            margin-top: 15px;
+        }
+
+        .nav{
+            display: flex;
+            //justify-content: flex-end;
+            margin-left: 200px;
+            //margin-top: 50px;
+            align-items: center;
+
+            .navItem{              
+                color: green;
+                margin-left: 25px;
+                
+                a{
+                    display: block;
+                    text-decoration: none;
+                    font-size: 20px;
+                    background: lightcoral;
+                    padding: 15px;
+
+                    &:hover{
+                        color:lightcoral;
+                        background: green;
+                    }
+                }
+            }
+        }
+    }
+}

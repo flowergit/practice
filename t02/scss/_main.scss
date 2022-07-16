@@ -17,9 +17,7 @@
 
         .nav{
             display: flex;
-            //justify-content: flex-end;
             margin-left: 200px;
-            //margin-top: 50px;
             align-items: center;
 
             .navItem{              
@@ -57,18 +55,20 @@
     .main {
         display: flex;
         margin-top: 10px;
+        
 
         .productList {
             width: 300px;
-
+            
             a {
+                background: lighten(blue, 45%);
                 display: block;
                 text-align: center;
                 padding-left: 15px;
                 padding-right: 15px;
                 padding-top: 30px;
                 padding-bottom: 30px;
-                border: red solid 2px;
+                border-bottom: red solid 2px;
                 text-decoration: none;
                 font-size: 35px;
             }
@@ -77,13 +77,14 @@
         .productDetail {
             display: flex;
             width: 658px;
-            border: 2px green solid;
+            //border: 2px green solid;
             flex-wrap: wrap;
             justify-content: space-around;
 
             .pd {
                 border: 1px red solid;
                 width: 326px;
+                //background: lighten(green, 35%);
                 //justify-content: space-between;
                 //margin-left: 20px;
                 //padding-left: 10px;

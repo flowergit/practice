@@ -53,13 +53,12 @@ table {
 }
 
 .wrap {
-  width: 1000px;
-  height: 800px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 .wrap .header {
+  max-width: 800px;
   display: flex;
-  width: 960px;
   margin: 0 auto;
 }
 .wrap .header .logo {
@@ -70,13 +69,13 @@ table {
   display: flex;
   margin-left: 200px;
   align-items: center;
-}
-.wrap .header .nav .navItem {
-  color: green;
-  margin-left: 25px;
+  margin-top: 45px;
 }
 .wrap .header .nav .navItem a {
   display: block;
+  color: green;
+  margin-left: 25px;
+  max-width: 100%;
   text-decoration: none;
   font-size: 20px;
   background: lightcoral;
@@ -88,21 +87,19 @@ table {
 }
 .wrap .banner {
   margin-top: 10px;
-  width: 960px;
-  background: #9999ff;
+  max-width: 100%;
 }
 .wrap .banner img {
   display: block;
+  max-width: 100%;
 }
 .wrap .main {
   display: flex;
   margin-top: 10px;
 }
-.wrap .main .productList {
-  width: 300px;
-}
 .wrap .main .productList a {
   background: #e6e6ff;
+  width: 300px;
   display: block;
   text-align: center;
   padding-left: 15px;
@@ -115,13 +112,13 @@ table {
 }
 .wrap .main .productDetail {
   display: flex;
-  width: 658px;
+  max-width: 658px;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 .wrap .main .productDetail .pd {
   border: 1px red solid;
-  width: 326px;
+  max-width: 326px;
   margin-bottom: 20px;
   text-align: center;
   font-size: 25px;

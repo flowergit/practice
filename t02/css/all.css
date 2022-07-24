@@ -59,11 +59,16 @@ table {
 .wrap .header {
   max-width: 800px;
   display: flex;
+  justify-content: space-between;
   margin: 0 auto;
 }
 .wrap .header .logo {
   margin-left: 15px;
   margin-top: 15px;
+}
+.wrap .header .logo h1 a img {
+  display: block;
+  max-width: 100%;
 }
 .wrap .header .nav {
   display: flex;

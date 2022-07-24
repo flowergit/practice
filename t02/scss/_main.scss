@@ -8,13 +8,22 @@
         max-width: 800px;
         display: flex;
         //max-width: 800px;
+        justify-content: space-between;
         margin: 0 auto;
         //background-color: yellow;
 
         .logo{
             margin-left: 15px;
             margin-top: 15px;
+            //max-width: 100%;
+
+            h1 a img {
+                display: block;
+                max-width: 100%;
+            }
         }
+
+
 
         .nav{
             display: flex;

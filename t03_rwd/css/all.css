@@ -64,8 +64,25 @@ h1 {
 .wrap {
   max-width: 1024px;
   margin: 0 auto;
-  background: red;
-  height: 800px;
+  background: yellow;
   border: 1px blue solid;
-  padding: 15px;
+}
+.wrap .header {
+  background: #e6e6e6;
+  height: 150px;
+  margin-bottom: 10px;
+}
+.wrap .main {
+  background: #1aff1a;
+  height: 350px;
+  margin-bottom: 15px;
+}
+.wrap .footer {
+  background: #fff3f5;
+  height: 50px;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
 }/*# sourceMappingURL=all.css.map */

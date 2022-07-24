@@ -6,8 +6,31 @@ h1 {
 .wrap {
     max-width: 1024px;
     margin: 0 auto;
-    background: red;
-    height: 800px;
+    background: yellow;
+    //height: 800px;
     border: 1px blue solid;
-    padding: 15px;
+    //padding: 15px;
+
+    .header {
+        background: lighten(gray, 40%);
+        height: 150px;
+        margin-bottom: 10px;
+    }
+
+    .main {
+        background: lighten(green, 30%);
+        height: 350px;
+        margin-bottom: 15px;
+    }
+
+    .footer {
+        background: lighten(pink, 10%);
+        height: 50px;
+
+    }
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
 }

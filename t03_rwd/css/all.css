@@ -73,9 +73,49 @@ h1 {
   margin-bottom: 10px;
 }
 .wrap .main {
-  background: #1aff1a;
-  height: 350px;
   margin-bottom: 15px;
+  display: flex;
+}
+.wrap .main .menu {
+  width: 30%;
+  margin-right: 5%;
+}
+.wrap .main .menu a {
+  display: block;
+  text-decoration: none;
+  font-size: 25px;
+  border: 1px #CCC solid;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.wrap .main .product {
+  width: 65%;
+}
+.wrap .main .product .item {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: 25px;
+}
+.wrap .main .product .item li img {
+  display: block;
+  max-width: 100%;
+  border: 1px #CCC solid;
+}
+.wrap .main .product .item li h2 {
+  text-align: center;
+  border: 1px #CCC solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.wrap .main .product .item li span {
+  display: block;
+  text-align: center;
+  border: 1px #CCC solid;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .wrap .footer {
   background: #fff3f5;

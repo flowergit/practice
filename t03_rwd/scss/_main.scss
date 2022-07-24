@@ -18,9 +18,64 @@ h1 {
     }
 
     .main {
-        background: lighten(green, 30%);
-        height: 350px;
+        //background: lighten(green, 30%);
+        //height: 350px;
         margin-bottom: 15px;
+        display: flex;
+
+        .menu {
+            width: 30%;
+            margin-right: 5%;
+
+            a {
+                display: block;
+                text-decoration: none;
+                font-size: 25px;
+                border: 1px #CCC solid;
+                text-align: center;
+                padding-top: 25px;
+                padding-bottom: 25px;
+            }
+        }
+
+        .product {
+            //display: flex;
+            width: 65%;
+            //justify-content: space-between;
+            
+            .item {
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                font-size: 25px;
+
+                li img{
+                    display: block;
+                    max-width: 100%;
+                    border: 1px #CCC solid;
+                }
+    
+                li h2 {
+                    text-align: center;
+                    border: 1px #CCC solid;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    //font-size: 15px;
+                }
+
+                li span {
+                    display: block;
+                    text-align: center;
+                    border: 1px #CCC solid;
+                    margin-bottom: 10px;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                }
+            }
+
+            
+        }
+
     }
 
     .footer {

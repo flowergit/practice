@@ -2,3 +2,12 @@ h1 {
     color: red;
     font-size: 55px;
 }
+
+.wrap {
+    max-width: 1024px;
+    margin: 0 auto;
+    background: red;
+    height: 800px;
+    border: 1px blue solid;
+    padding: 15px;
+}

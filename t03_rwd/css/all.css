@@ -98,9 +98,17 @@ h1 {
   flex-wrap: wrap;
   font-size: 25px;
 }
+.wrap .main .product .item li {
+  width: 30%;
+}
+@media (max-width: 768px) {
+  .wrap .main .product .item li {
+    width: 45%;
+  }
+}
 .wrap .main .product .item li img {
   display: block;
-  max-width: 100%;
+  width: 100%;
   border: 1px #CCC solid;
 }
 .wrap .main .product .item li h2 {

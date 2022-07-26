@@ -48,10 +48,26 @@ h1 {
                 justify-content: space-around;
                 flex-wrap: wrap;
                 font-size: 25px;
+                //max-width: 100%;
+                
+                li {
+                    width: 30%;
+                }
+
+                @media (max-width: 768px) {
+                li {
+                    width: 45%;
+                }
+                }
+               
+
+                
+               
+                
 
                 li img{
                     display: block;
-                    max-width: 100%;
+                    width: 100%;
                     border: 1px #CCC solid;
                 }
     

@@ -102,8 +102,16 @@ h1 {
   width: 30%;
 }
 @media (max-width: 768px) {
+  .wrap .main .product .item .container {
+    padding: 0 15px;
+  }
   .wrap .main .product .item li {
     width: 45%;
+  }
+}
+@media (max-width: 575px) {
+  .wrap .main .product .item li {
+    width: 100%;
   }
 }
 .wrap .main .product .item li img {
@@ -133,4 +141,10 @@ h1 {
 .container {
   max-width: 1024px;
   margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
 }/*# sourceMappingURL=all.css.map */

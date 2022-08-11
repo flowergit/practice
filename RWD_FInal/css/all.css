@@ -55,4 +55,24 @@ table {
 img {
   max-width: 100%;
   height: auto;
+}
+
+h1 {
+  color: red;
+  font-size: 30px;
+}
+
+.test1 {
+  max-width: 1200px;
+  height: 500px;
+}
+@media (max-width: 768px) {
+  .test1 {
+    background: green;
+  }
+}
+@media (max-width: 168px) {
+  .test1 {
+    background: yellow;
+  }
 }/*# sourceMappingURL=all.css.map */

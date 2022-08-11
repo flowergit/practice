@@ -116,7 +116,7 @@ h1 {
 }
 .wrap .main .product .item li img {
   display: block;
-  width: 100%;
+  max-width: 100%;
   border: 1px #CCC solid;
 }
 .wrap .main .product .item li h2 {

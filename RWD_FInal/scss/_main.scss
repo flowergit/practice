@@ -1,0 +1,16 @@
+h1 {
+    color: red;
+    font-size: 30px;
+}
+
+.test1 {
+    max-width: 1200px;
+    height: 500px;
+    @include pad{
+        @include bg;
+    }
+
+    @include mobile{
+        @include bg2;
+    }
+}

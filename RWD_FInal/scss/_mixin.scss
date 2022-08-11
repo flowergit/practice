@@ -1,0 +1,31 @@
+// @mixin bg {
+//     background: rgb(13, 255, 0);
+// }
+
+// @mixin pad {
+//     @media(max-width: 768px) {
+//         @content;
+//     }
+// }
+
+@mixin bg {
+    background: green;
+}
+
+@mixin bg2 {
+    background: yellow;
+    
+}
+
+@mixin pad {
+    @media(max-width : 768px){
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media(max-width: 168px){
+        @content;
+    }
+
+}
